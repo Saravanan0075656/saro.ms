@@ -34,7 +34,7 @@ const cardInfos = {
     'Coming Soon',
   ],
   image: [
-    './default/com.webp',
+    './default/PNG/ecom.png',
     './default/JPG/PortfolioCode.jpg',
     './default/detect.webp',
     './default/PNG/sparten009.png',
