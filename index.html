@@ -127,19 +127,17 @@
       </section>
       <section id="form-section">
         <h2 class="form-heading">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-        <form id="form" action="https://formspree.io/f/xvoeyejv" method="post">
-          <label for="name">
-            <input id="name" name="name" type="text" maxlength="30" placeholder="Full name" required>
-          </label>
-          <label for="email">
-            <input id="email" name="email" type="email" placeholder="Email address" required>
-          </label>
-          <label for="message">
-            <textarea id="message" name="message" maxlength="500" placeholder="Write me something..." required></textarea>
-          </label>
-          <button class="btn" type="submit">Get in touch</button>
-          <p class="errText"></p>
-        </form>
+       <form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
       </section>
     </main>
     <footer>
